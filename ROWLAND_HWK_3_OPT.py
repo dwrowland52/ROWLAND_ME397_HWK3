@@ -15,10 +15,10 @@ from pyomo.opt import SolverFactory     # Loading OPT of pyomo
 #%% Constants and assumptions section
 
 # Costs for solar, wind, and energy storage systems
-solarCapitalCost = 800000000       # $/GW
-windCapitalCost  = 1200000000      # $/GW
-ESSpCapitalCost  = 200000000       # $/GW
-ESSeCapitalCost  = 150000000       # $/GWh
+solarCapitalCost = 8*10**8       # $/GW
+windCapitalCost  = 120*10**8     # $/GW
+ESSpCapitalCost  = 2*10**8       # $/GW
+ESSeCapitalCost  = 15*10**8      # $/GWh
 
 # Energy storage operational assumptions
 curtailment = 1000          # Curtailment penalty $/GWh
